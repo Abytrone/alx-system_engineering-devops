@@ -1,3 +1,2 @@
 #!/bin/bash
-sort /etc/passwd | cut --delimiter=':' -f6
-
+sort /etc/passwd | cut --delimiter=':' -f1,6
